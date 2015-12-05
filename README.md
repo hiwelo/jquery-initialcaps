@@ -10,3 +10,6 @@ plugin with the script :
 ```js
 $('.js-initial-caps').initialCaps();
 ```
+
+`.js-initial-caps` is the class of the HTML container which contains all targeted
+paragraphs.
