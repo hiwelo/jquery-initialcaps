@@ -3,7 +3,12 @@
   "version": "0.1.0",
   "description": "A small initial caps jQuery plugin",
   "main": "dist/js/jquery-initialcaps.js",
-  "files": ["dist", "src", "*.json", "*.js"],
+  "files": [
+    "dist",
+    "src",
+    "*.json",
+    "*.js"
+  ],
   "scripts": {
     "test": "gulp build"
   },
@@ -24,5 +29,12 @@
   "bugs": {
     "url": "https://github.com/hiwelo/jquery-initialcaps.js/issues"
   },
-  "homepage": "https://github.com/hiwelo/jquery-initialcaps.js#readme"
+  "homepage": "https://github.com/hiwelo/jquery-initialcaps.js#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-load-plugins": "^1.1.0",
+    "gulp-uglify": "^1.5.1",
+    "gulp-watch": "^4.3.5"
+  }
 }
