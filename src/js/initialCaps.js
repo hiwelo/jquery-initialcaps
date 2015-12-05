@@ -187,6 +187,4 @@
       (new $.initialCaps(this, options));
     });
   };
-
-  $('.js-initial-caps').initialCaps();
 })(jQuery);
