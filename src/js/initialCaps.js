@@ -60,6 +60,11 @@
       }
     };
 
+    /**
+     * Control if an item exist and if the container have a minimal height
+     * @param  {object} $item jQuery DOM object
+     * @return {bool}         controlled item
+     */
     base.controlItem = function ($item) {
       var tag = $item.prop('tagName').toLowerCase(),
           targetItems = base.options.targetItems;
@@ -117,6 +122,13 @@
       return firstWord;
     };
 
+    /**
+     * Wrap a text into a html element
+     * @param  {object} $element      jQuery DOM element
+     * @param  {string} regex         text regex selection
+     * @param  {string} specificClass specific class for this new html element
+     * @return {void}
+     */
     base.wrapping = function ($element, regex, specificClass) {
       var initialCapsTag = base.options.initialCapsTag,
           initialCapsClass = base.options.initialCapsClass,
@@ -127,6 +139,12 @@
       $element.html(newHtml);
     };
 
+    /**
+     * Check the initial word and create an initial cap
+     * @param  {object} $element      jQuery DOM object
+     * @param  {string} specificClass specific class for this initial cap
+     * @return {void}
+     */
     base.doInitialCaps = function ($element, specificClass) {
       var firstWord = base.firstWord($element),
           sizeInitialWord = firstWord.length,
