@@ -1,0 +1,28 @@
+{
+  "name": "jquery-initialcaps",
+  "version": "0.1.0",
+  "description": "A small initial caps jQuery plugin",
+  "main": "dist/js/jquery-initialcaps.js",
+  "files": ["dist", "src", "*.json", "*.js"],
+  "scripts": {
+    "test": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hiwelo/jquery-initialcaps.git"
+  },
+  "keywords": [
+    "typography",
+    "initial",
+    "caps",
+    "text",
+    "layout",
+    "press"
+  ],
+  "author": "Damien Senger <hi@hiwelo.co>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/hiwelo/jquery-initialcaps.js/issues"
+  },
+  "homepage": "https://github.com/hiwelo/jquery-initialcaps.js#readme"
+}
