@@ -10,7 +10,7 @@
   "version": "0.1.0",
   "description": "A small initial caps jQuery plugin",
   "main": [
-    "dist/js/jquery-initialcaps.min.js"
+    "src/js/jquery-initialcaps.js"
   ],
   "scripts": [
     "dist/js/jquery-initialcaps.min.js"
